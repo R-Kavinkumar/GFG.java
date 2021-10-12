@@ -1,12 +1,27 @@
-package com.company;
-class _kavin{
-    void kk(){
-        System.out.println("hi");
-    }
+class hi{
+    int i=10;
+    static int j;
+
 }
+
+
+
+
+
+
+
+
 class testing{
-    public  static <k> void main(String[] args){
-        _kavin []k=new _kavin[2];
-        k[1]={};
+    int i=30;
+    static int j=40;
+    public  static void main(String[] args){
+        hi t=new hi();
+        hi h= new hi();
+        h.j=10;
+        t.j=110;
+
+        System.out.println(h.j);
+        
+        }
+
     }
-}
